@@ -7,7 +7,7 @@ about:
   latestVersion: "v2.13.0"
   latestRelease: "v2.13.0"
   latestPrerelease: "0.6.0-alpha"
-  collectedAt: 2026-09-11T04:24:33Z
+  collectedAt: 2026-09-11T20:36:17Z
 timeline:
   created: 2021-10-08
   lastCommit: 2026-09-02
@@ -15,7 +15,7 @@ timeline:
   lastRelease: 2026-08-05
   lastPrerelease: 2021-12-30
 popularity:
-  star: 190
+  star: 191
   watcher: 5
   fork: 9
   release: 34
@@ -90,7 +90,7 @@ total:
   commit: 2510
 ---
 path: /home/runner/.x-repo/github.com/herrhotzenplotz/gcli
-collectedAt: 2026-09-11T04:24:35Z
+collectedAt: 2026-09-11T20:36:19Z
 loc:
   C:
     code: 24862
