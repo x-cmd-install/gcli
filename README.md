@@ -47,27 +47,12 @@ Total: **35,660** lines of code across **291** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 0 | 0 | 0 | 1 | 0 | 0 |
-| last60d | 2026-07-15 | 1 | 0 | 0 | 1 | 0 | 31 |
-| 90d | 2026-06-15 | 1 | 0 | 0 | 1 | 1 | 48 |
-| last180d | 2026-03-17 | 3 | 0 | 0 | 1 | 2 | 139 |
-| 360d | 2025-09-18 | 5 | 0 | 0 | 3 | 2 | 265 |
-| last720d | 2024-09-23 | 10 | 0 | 0 | 8 | 2 | 545 |
-
-## Distribution status
-
-Reported by **40** distros on [repology.org](https://repology.org/project/gcli). **13** are ✅ on the latest upstream release, **26** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `2.13.0` | ✅ latest |
-| Debian 14 | `2.13.0` | ✅ latest |
-| Debian 13 | `2.3.0` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `2.9.1` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `2.2.0` | ⚠️ outdated |
-| Homebrew | `2.13.0` | ✅ latest |
-| Nix unstable | `2.13.0` | ✅ latest |
-| Alpine edge | `2.9.1` | ⚠️ outdated |
+| 30d | 2026-08-15 | 0 | 0 | 0 | 1 | 0 | 0 |
+| last60d | 2026-07-16 | 1 | 0 | 0 | 1 | 0 | 31 |
+| 90d | 2026-06-16 | 1 | 0 | 0 | 1 | 1 | 48 |
+| last180d | 2026-03-18 | 3 | 0 | 0 | 1 | 2 | 139 |
+| 360d | 2025-09-19 | 5 | 0 | 0 | 3 | 2 | 265 |
+| last720d | 2024-09-24 | 10 | 0 | 0 | 8 | 2 | 545 |
 
 ## Improve this data
 
@@ -78,4 +63,4 @@ Install metadata for gcli lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260913.yml` · 2026-09-13T04:36:10Z._
+_Snapshot: `data/card/260914.yml` · 2026-09-14T04:42:38Z._
