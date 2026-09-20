@@ -4,7 +4,7 @@
 
 Portable Git(hub|lab|tea)/Forgejo/Bugzilla CLI tool, Submit patches here: https://lists.sr.ht/~herrhotzenplotz/gcli-devel
 
-![gcli](https://repo.x-cmd.io/gcli.svg)
+[![x-cmd/install — gcli Code Quality Monitoring Repo Card](https://repo.x-cmd.io/gcli.svg)](https://x-cmd.com/install/gcli)
 
 ## Install
 
@@ -47,12 +47,12 @@ Total: **35,660** lines of code across **291** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 0 | 0 | 0 | 1 | 0 | 0 |
-| last60d | 2026-07-20 | 1 | 0 | 0 | 1 | 0 | 31 |
-| 90d | 2026-06-20 | 1 | 0 | 0 | 1 | 1 | 48 |
-| last180d | 2026-03-22 | 2 | 0 | 0 | 1 | 2 | 139 |
-| 360d | 2025-09-23 | 5 | 0 | 0 | 3 | 2 | 265 |
-| last720d | 2024-09-28 | 10 | 0 | 0 | 8 | 2 | 545 |
+| 30d | 2026-08-21 | 0 | 0 | 0 | 1 | 0 | 0 |
+| last60d | 2026-07-22 | 1 | 0 | 0 | 1 | 0 | 19 |
+| 90d | 2026-06-22 | 1 | 0 | 0 | 1 | 1 | 39 |
+| last180d | 2026-03-24 | 2 | 0 | 0 | 1 | 2 | 138 |
+| 360d | 2025-09-25 | 5 | 0 | 0 | 3 | 2 | 264 |
+| last720d | 2024-09-30 | 10 | 0 | 0 | 8 | 2 | 545 |
 
 ## Improve this data
 
@@ -63,4 +63,4 @@ Install metadata for gcli lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260918.yml` · 2026-09-18T04:28:42Z._
+_Snapshot: `data/card/260920.yml` · 2026-09-20T04:44:07Z._
