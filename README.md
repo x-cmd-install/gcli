@@ -37,7 +37,7 @@ Total: **35,660** lines of code across **291** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 192 · **Forks**: 9 · **Open issues**: 79 · **Contributors**: 14
+- **Stars**: 193 · **Forks**: 9 · **Open issues**: 79 · **Contributors**: 14
 
 ## Totals (cumulative)
 
@@ -47,12 +47,12 @@ Total: **35,660** lines of code across **291** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-28 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-07-29 | 1 | 0 | 0 | 1 | 0 | 12 |
-| 90d | 2026-06-29 | 1 | 0 | 0 | 1 | 1 | 36 |
-| last180d | 2026-03-31 | 2 | 0 | 0 | 1 | 2 | 134 |
-| 360d | 2025-10-02 | 5 | 0 | 0 | 3 | 2 | 250 |
-| last720d | 2024-10-07 | 10 | 0 | 0 | 8 | 2 | 545 |
+| 30d | 2026-08-29 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-30 | 1 | 0 | 0 | 1 | 0 | 12 |
+| 90d | 2026-06-30 | 1 | 0 | 0 | 1 | 1 | 36 |
+| last180d | 2026-04-01 | 2 | 0 | 0 | 1 | 1 | 134 |
+| 360d | 2025-10-03 | 5 | 0 | 0 | 3 | 2 | 250 |
+| last720d | 2024-10-08 | 10 | 0 | 0 | 8 | 2 | 545 |
 
 ## Improve this data
 
@@ -63,4 +63,4 @@ Install metadata for gcli lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260927.yml` · 2026-09-27T05:08:45Z._
+_Snapshot: `data/card/260928.yml` · 2026-09-28T05:11:16Z._
