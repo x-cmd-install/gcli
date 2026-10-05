@@ -14,13 +14,13 @@ x install gcli
 
 ## Code insight
 
-Total: **35,660** lines of code across **291** files in the top 5 languages.
+Total: **35,805** lines of code across **291** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 24,862 | 4,512 | 5,893 | 126 |
-| Autoconf | 4,184 | 59 | 124 | 21 |
-| CHeader | 3,428 | 3,339 | 1,292 | 111 |
+| C | 24,981 | 4,523 | 5,924 | 126 |
+| Autoconf | 4,189 | 59 | 124 | 21 |
+| CHeader | 3,449 | 3,343 | 1,299 | 111 |
 | Json | 1,354 | 0 | 7 | 24 |
 | Sh | 776 | 135 | 120 | 9 |
 
@@ -33,7 +33,7 @@ Total: **35,660** lines of code across **291** files in the top 5 languages.
 ## Release
 
 - **Latest**: `v2.13.0` (2026-08-05)
-- **Last commit**: 2026-09-02
+- **Last commit**: 2026-10-04
 
 ## Popularity
 
@@ -41,18 +41,18 @@ Total: **35,660** lines of code across **291** files in the top 5 languages.
 
 ## Totals (cumulative)
 
-- **Releases**: 34 · **Merged PRs**: 0 · **Open PRs**: 0 · **Closed issues**: 75 · **Open issues**: 4 · **Commits**: 2510
+- **Releases**: 34 · **Merged PRs**: 0 · **Open PRs**: 0 · **Closed issues**: 76 · **Open issues**: 3 · **Commits**: 2519
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-04 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-08-05 | 1 | 0 | 0 | 1 | 0 | 8 |
-| 90d | 2026-07-06 | 1 | 0 | 0 | 1 | 1 | 36 |
-| last180d | 2026-04-07 | 2 | 0 | 0 | 1 | 1 | 134 |
-| 360d | 2025-10-09 | 4 | 0 | 0 | 2 | 2 | 245 |
-| last720d | 2024-10-14 | 10 | 0 | 0 | 8 | 2 | 539 |
+| 30d | 2026-09-05 | 0 | 0 | 0 | 0 | 0 | 9 |
+| last60d | 2026-08-06 | 0 | 0 | 0 | 1 | 0 | 17 |
+| 90d | 2026-07-07 | 1 | 0 | 0 | 2 | 0 | 45 |
+| last180d | 2026-04-08 | 2 | 0 | 0 | 2 | 0 | 143 |
+| 360d | 2025-10-10 | 4 | 0 | 0 | 3 | 1 | 254 |
+| last720d | 2024-10-15 | 10 | 0 | 0 | 9 | 1 | 548 |
 
 ## Improve this data
 
@@ -63,4 +63,4 @@ Install metadata for gcli lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261004.yml` · 2026-10-04T05:40:01Z._
+_Snapshot: `data/card/261005.yml` · 2026-10-05T05:23:28Z._
