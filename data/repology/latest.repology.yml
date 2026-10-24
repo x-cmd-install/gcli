@@ -1,66 +1,3 @@
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: gcli
-  binnames:
-    - gcli
-  visiblename: gcli
-  version: 2.3.0
-  origversion: 2.3.0-1
-  status: outdated
-  maintainers:
-    - sjr@debian.org
-  categories:
-    - devel
-- repo: raspbian_stable
-  subrepo: main
-  srcname: gcli
-  binnames:
-    - gcli
-  visiblename: gcli
-  version: 2.3.0
-  origversion: 2.3.0-1
-  status: outdated
-  maintainers:
-    - sjr@debian.org
-  categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: gcli
-  binnames:
-    - gcli
-  visiblename: gcli
-  version: 2.13.0
-  origversion: 2.13.0-2
-  status: newest
-  maintainers:
-    - sjr@debian.org
-  categories:
-    - misc
-- repo: pkgsrc_2026_3
-  srcname: devel/gcli
-  binname: gcli
-  visiblename: devel/gcli
-  version: 2.2.0
-  origversion: 2.2.0nb11
-  status: outdated
-  summary: Portable CLI tool for interacting with GitHub/Lab/Tea
-  maintainers:
-    - tm@netbsd.org
-  categories:
-    - devel
-- repo: pkgsrc_current
-  srcname: devel/gcli
-  binname: gcli
-  visiblename: devel/gcli
-  version: 2.13.0
-  origversion: null
-  status: newest
-  summary: Portable CLI tool for interacting with GitHub/Lab/Tea
-  maintainers:
-    - tm@netbsd.org
-  categories:
-    - devel
 - repo: alpine_edge
   subrepo: testing
   srcname: gcli
@@ -103,6 +40,19 @@
     - BSD-2-Clause
   categories:
     - Development/Other
+- repo: ubuntu_24_04
+  subrepo: noble/universe
+  srcname: gcli
+  binnames:
+    - gcli
+  visiblename: gcli
+  version: 2.2.0
+  origversion: 2.2.0-1build2
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+  categories:
+    - universe/misc
 - repo: altsisyphus
   srcname: gcli
   binnames:
@@ -281,6 +231,19 @@
     - sjr@debian.org
   categories:
     - misc
+- repo: ubuntu_25_04
+  subrepo: plucky/universe
+  srcname: gcli
+  binnames:
+    - gcli
+  visiblename: gcli
+  version: 2.3.0
+  origversion: 2.3.0-1
+  status: outdated
+  maintainers:
+    - sjr@debian.org
+  categories:
+    - universe/misc
 - repo: macports
   srcname: devel/gcli
   binname: gcli
@@ -399,6 +362,69 @@
     - tm@netbsd.org
   categories:
     - devel
+- repo: pkgsrc_2026_3
+  srcname: devel/gcli
+  binname: gcli
+  visiblename: devel/gcli
+  version: 2.2.0
+  origversion: 2.2.0nb11
+  status: outdated
+  summary: Portable CLI tool for interacting with GitHub/Lab/Tea
+  maintainers:
+    - tm@netbsd.org
+  categories:
+    - devel
+- repo: pkgsrc_current
+  srcname: devel/gcli
+  binname: gcli
+  visiblename: devel/gcli
+  version: 2.13.0
+  origversion: null
+  status: newest
+  summary: Portable CLI tool for interacting with GitHub/Lab/Tea
+  maintainers:
+    - tm@netbsd.org
+  categories:
+    - devel
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: gcli
+  binnames:
+    - gcli
+  visiblename: gcli
+  version: 2.3.0
+  origversion: 2.3.0-1
+  status: outdated
+  maintainers:
+    - sjr@debian.org
+  categories:
+    - devel
+- repo: raspbian_stable
+  subrepo: main
+  srcname: gcli
+  binnames:
+    - gcli
+  visiblename: gcli
+  version: 2.3.0
+  origversion: 2.3.0-1
+  status: outdated
+  maintainers:
+    - sjr@debian.org
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: gcli
+  binnames:
+    - gcli
+  visiblename: gcli
+  version: 2.13.0
+  origversion: 2.13.0-3
+  status: newest
+  maintainers:
+    - sjr@debian.org
+  categories:
+    - misc
 - repo: rosa_13
   subrepo: contrib/release
   srcname: gcli
@@ -427,32 +453,6 @@
     - xaizek@posteo.net
   categories:
     - development
-- repo: ubuntu_24_04
-  subrepo: noble/universe
-  srcname: gcli
-  binnames:
-    - gcli
-  visiblename: gcli
-  version: 2.2.0
-  origversion: 2.2.0-1build2
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-  categories:
-    - universe/misc
-- repo: ubuntu_25_04
-  subrepo: plucky/universe
-  srcname: gcli
-  binnames:
-    - gcli
-  visiblename: gcli
-  version: 2.3.0
-  origversion: 2.3.0-1
-  status: outdated
-  maintainers:
-    - sjr@debian.org
-  categories:
-    - universe/misc
 - repo: ubuntu_25_10
   subrepo: questing/universe
   srcname: gcli
