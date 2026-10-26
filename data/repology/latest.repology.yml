@@ -1,3 +1,26 @@
+- repo: nix_stable_25_05
+  srcname: gcli
+  visiblename: gcli
+  version: 2.7.0
+  origversion: null
+  status: outdated
+  summary: Portable Git(Hub|Lab|ea) CLI tool
+  maintainers:
+    - johannes.maier@mailbox.org
+  licenses:
+    - BSD-2-Clause
+- repo: aur
+  srcname: gcli
+  binname: gcli
+  visiblename: gcli
+  version: 2.13.0
+  origversion: 2.13.0-1
+  status: newest
+  summary: A CLI for Github, Gitlab and Gitea written in C
+  maintainers:
+    - werenter@aur
+  licenses:
+    - BSD-2-Clause
 - repo: alpine_edge
   subrepo: testing
   srcname: gcli
@@ -40,19 +63,6 @@
     - BSD-2-Clause
   categories:
     - Development/Other
-- repo: ubuntu_24_04
-  subrepo: noble/universe
-  srcname: gcli
-  binnames:
-    - gcli
-  visiblename: gcli
-  version: 2.2.0
-  origversion: 2.2.0-1build2
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-  categories:
-    - universe/misc
 - repo: altsisyphus
   srcname: gcli
   binnames:
@@ -69,18 +79,6 @@
     - BSD-2-Clause
   categories:
     - Development/Other
-- repo: aur
-  srcname: gcli
-  binname: gcli
-  visiblename: gcli
-  version: 2.13.0
-  origversion: 2.13.0-1
-  status: newest
-  summary: A CLI for Github, Gitlab and Gitea written in C
-  maintainers:
-    - werenter@aur
-  licenses:
-    - BSD-2-Clause
 - repo: chimera
   subrepo: user
   srcname: gcli
@@ -225,25 +223,12 @@
     - gcli
   visiblename: gcli
   version: 2.13.0
-  origversion: 2.13.0-2
+  origversion: 2.13.0-3
   status: newest
   maintainers:
     - sjr@debian.org
   categories:
     - misc
-- repo: ubuntu_25_04
-  subrepo: plucky/universe
-  srcname: gcli
-  binnames:
-    - gcli
-  visiblename: gcli
-  version: 2.3.0
-  origversion: 2.3.0-1
-  status: outdated
-  maintainers:
-    - sjr@debian.org
-  categories:
-    - universe/misc
 - repo: macports
   srcname: devel/gcli
   binname: gcli
@@ -273,17 +258,6 @@
   srcname: gcli
   visiblename: gcli
   version: 2.2.0
-  origversion: null
-  status: outdated
-  summary: Portable Git(Hub|Lab|ea) CLI tool
-  maintainers:
-    - johannes.maier@mailbox.org
-  licenses:
-    - BSD-2-Clause
-- repo: nix_stable_25_05
-  srcname: gcli
-  visiblename: gcli
-  version: 2.7.0
   origversion: null
   status: outdated
   summary: Portable Git(Hub|Lab|ea) CLI tool
@@ -453,6 +427,32 @@
     - xaizek@posteo.net
   categories:
     - development
+- repo: ubuntu_24_04
+  subrepo: noble/universe
+  srcname: gcli
+  binnames:
+    - gcli
+  visiblename: gcli
+  version: 2.2.0
+  origversion: 2.2.0-1build2
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+  categories:
+    - universe/misc
+- repo: ubuntu_25_04
+  subrepo: plucky/universe
+  srcname: gcli
+  binnames:
+    - gcli
+  visiblename: gcli
+  version: 2.3.0
+  origversion: 2.3.0-1
+  status: outdated
+  maintainers:
+    - sjr@debian.org
+  categories:
+    - universe/misc
 - repo: ubuntu_25_10
   subrepo: questing/universe
   srcname: gcli
