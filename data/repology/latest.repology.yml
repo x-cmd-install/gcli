@@ -1,26 +1,55 @@
-- repo: nix_stable_25_05
+- repo: raspbian_stable
+  subrepo: main
   srcname: gcli
+  binnames:
+    - gcli
   visiblename: gcli
-  version: 2.7.0
-  origversion: null
+  version: 2.3.0
+  origversion: 2.3.0-1
   status: outdated
-  summary: Portable Git(Hub|Lab|ea) CLI tool
   maintainers:
-    - johannes.maier@mailbox.org
-  licenses:
-    - BSD-2-Clause
-- repo: aur
+    - sjr@debian.org
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
   srcname: gcli
-  binname: gcli
+  binnames:
+    - gcli
   visiblename: gcli
   version: 2.13.0
-  origversion: 2.13.0-1
-  status: newest
-  summary: A CLI for Github, Gitlab and Gitea written in C
+  origversion: 2.13.0-3
+  status: outdated
   maintainers:
-    - werenter@aur
-  licenses:
-    - BSD-2-Clause
+    - sjr@debian.org
+  categories:
+    - misc
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: gcli
+  binnames:
+    - gcli
+  visiblename: gcli
+  version: 2.14.0
+  origversion: 2.14.0-1
+  status: newest
+  maintainers:
+    - sjr@debian.org
+  categories:
+    - misc
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: gcli
+  binnames:
+    - gcli
+  visiblename: gcli
+  version: 2.3.0
+  origversion: 2.3.0-1
+  status: outdated
+  maintainers:
+    - sjr@debian.org
+  categories:
+    - devel
 - repo: alpine_edge
   subrepo: testing
   srcname: gcli
@@ -71,7 +100,7 @@
   visiblename: gcli
   version: 2.13.0
   origversion: 2.13.0-alt1
-  status: newest
+  status: outdated
   summary: Portable CLI tool for interacting with Git(Hub|Lab|Tea) from the command line
   maintainers:
     - writers@altlinux.org
@@ -79,6 +108,18 @@
     - BSD-2-Clause
   categories:
     - Development/Other
+- repo: aur
+  srcname: gcli
+  binname: gcli
+  visiblename: gcli
+  version: 2.14.0
+  origversion: 2.14.0-1
+  status: newest
+  summary: A CLI for Github, Gitlab and Gitea written in C
+  maintainers:
+    - werenter@aur
+  licenses:
+    - BSD-2-Clause
 - repo: chimera
   subrepo: user
   srcname: gcli
@@ -86,7 +127,7 @@
   visiblename: gcli
   version: 2.13.0
   origversion: 2.13.0-r0
-  status: newest
+  status: outdated
   summary: CLI tool for interacting with Git(Hub|Lab|Tea)
   licenses:
     - BSD-2-Clause
@@ -97,7 +138,7 @@
   visiblename: gcli-doc
   version: 2.13.0
   origversion: 2.13.0-r0
-  status: newest
+  status: outdated
   summary: CLI tool for interacting with Git(Hub|Lab|Tea) (documentation)
   licenses:
     - BSD-2-Clause
@@ -108,7 +149,7 @@
   visiblename: gcli-man
   version: 2.13.0
   origversion: 2.13.0-r0
-  status: newest
+  status: outdated
   summary: CLI tool for interacting with Git(Hub|Lab|Tea) (manual pages)
   licenses:
     - BSD-2-Clause
@@ -146,7 +187,7 @@
   visiblename: gcli
   version: 2.13.0
   origversion: 2.13.0-3
-  status: newest
+  status: outdated
   maintainers:
     - sjr@debian.org
   categories:
@@ -159,6 +200,19 @@
   visiblename: gcli
   version: 2.13.0
   origversion: 2.13.0-3
+  status: legacy
+  maintainers:
+    - sjr@debian.org
+  categories:
+    - misc
+- repo: debian_unstable
+  subrepo: sid/main
+  srcname: gcli
+  binnames:
+    - gcli
+  visiblename: gcli
+  version: 2.14.0
+  origversion: 2.14.0-1
   status: newest
   maintainers:
     - sjr@debian.org
@@ -177,26 +231,13 @@
     - sjr@debian.org
   categories:
     - misc
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: gcli
-  binnames:
-    - gcli
-  visiblename: gcli
-  version: 2.13.0
-  origversion: 2.13.0-3
-  status: newest
-  maintainers:
-    - sjr@debian.org
-  categories:
-    - misc
 - repo: freebsd
   srcname: devel/gcli
   binname: gcli
   visiblename: devel/gcli
   version: 2.13.0
   origversion: 2.13.0_1
-  status: newest
+  status: outdated
   summary: CLI utility to interact with various Git forges
   maintainers:
     - fuz@freebsd.org
@@ -205,7 +246,7 @@
 - repo: homebrew
   srcname: gcli
   visiblename: gcli
-  version: 2.13.0
+  version: 2.14.0
   origversion: null
   status: newest
   summary: Portable Git(hub|lab|tea)/Forgejo/Bugzilla CLI tool
@@ -224,7 +265,7 @@
   visiblename: gcli
   version: 2.13.0
   origversion: 2.13.0-3
-  status: newest
+  status: outdated
   maintainers:
     - sjr@debian.org
   categories:
@@ -235,7 +276,7 @@
   visiblename: gcli
   version: 2.13.0
   origversion: null
-  status: newest
+  status: outdated
   summary: CLI utility to interact with various Git forges
   maintainers:
     - nomaintainer@macports.org
@@ -258,6 +299,17 @@
   srcname: gcli
   visiblename: gcli
   version: 2.2.0
+  origversion: null
+  status: outdated
+  summary: Portable Git(Hub|Lab|ea) CLI tool
+  maintainers:
+    - johannes.maier@mailbox.org
+  licenses:
+    - BSD-2-Clause
+- repo: nix_stable_25_05
+  srcname: gcli
+  visiblename: gcli
+  version: 2.7.0
   origversion: null
   status: outdated
   summary: Portable Git(Hub|Lab|ea) CLI tool
@@ -292,7 +344,7 @@
   visiblename: gcli
   version: 2.13.0
   origversion: null
-  status: newest
+  status: outdated
   summary: Portable Git(Hub|Lab|ea) CLI tool
   maintainers:
     - johannes.maier@mailbox.org
@@ -354,51 +406,12 @@
   visiblename: devel/gcli
   version: 2.13.0
   origversion: null
-  status: newest
+  status: outdated
   summary: Portable CLI tool for interacting with GitHub/Lab/Tea
   maintainers:
     - tm@netbsd.org
   categories:
     - devel
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: gcli
-  binnames:
-    - gcli
-  visiblename: gcli
-  version: 2.3.0
-  origversion: 2.3.0-1
-  status: outdated
-  maintainers:
-    - sjr@debian.org
-  categories:
-    - devel
-- repo: raspbian_stable
-  subrepo: main
-  srcname: gcli
-  binnames:
-    - gcli
-  visiblename: gcli
-  version: 2.3.0
-  origversion: 2.3.0-1
-  status: outdated
-  maintainers:
-    - sjr@debian.org
-  categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: gcli
-  binnames:
-    - gcli
-  visiblename: gcli
-  version: 2.13.0
-  origversion: 2.13.0-3
-  status: newest
-  maintainers:
-    - sjr@debian.org
-  categories:
-    - misc
 - repo: rosa_13
   subrepo: contrib/release
   srcname: gcli
@@ -409,7 +422,7 @@
   visiblename: gcli
   version: 2.13.0
   origversion: 2.13.0-2
-  status: newest
+  status: outdated
   summary: Portable CLI tool for interacting with Git(Hub|Lab|Tea) from the command line
   maintainers:
     - survolog@yandex.ru
@@ -422,7 +435,7 @@
   visiblename: development/gcli
   version: 2.13.0
   origversion: null
-  status: newest
+  status: outdated
   maintainers:
     - xaizek@posteo.net
   categories:
@@ -487,7 +500,7 @@
   visiblename: gcli
   version: 2.13.0
   origversion: 2.13.0-2
-  status: newest
+  status: outdated
   maintainers:
     - sjr@debian.org
   categories:
