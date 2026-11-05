@@ -24,6 +24,57 @@
     - sjr@debian.org
   categories:
     - misc
+- repo: parrot
+  subrepo: parrot/main
+  srcname: gcli
+  binnames:
+    - gcli
+  visiblename: gcli
+  version: 2.3.0
+  origversion: 2.3.0-1
+  status: outdated
+  maintainers:
+    - sjr@debian.org
+  categories:
+    - misc
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: gcli
+  binnames:
+    - gcli
+  visiblename: gcli
+  version: 2.3.0
+  origversion: 2.3.0-1
+  status: outdated
+  maintainers:
+    - sjr@debian.org
+  categories:
+    - misc
+- repo: pkgsrc_2026_2
+  srcname: devel/gcli
+  binname: gcli
+  visiblename: devel/gcli
+  version: 2.2.0
+  origversion: 2.2.0nb11
+  status: outdated
+  summary: Portable CLI tool for interacting with GitHub/Lab/Tea
+  maintainers:
+    - tm@netbsd.org
+  categories:
+    - devel
+- repo: deepin_25
+  subrepo: community
+  srcname: gcli
+  binnames:
+    - gcli
+  visiblename: gcli
+  version: 2.3.0
+  origversion: 2.3.0-1
+  status: outdated
+  maintainers:
+    - sjr@debian.org
+  categories:
+    - misc
 - repo: devuan_unstable
   subrepo: unstable/main
   srcname: gcli
@@ -198,35 +249,9 @@
   binnames:
     - gcli
   visiblename: gcli
-  version: 2.13.0
-  origversion: 2.13.0-3
-  status: legacy
-  maintainers:
-    - sjr@debian.org
-  categories:
-    - misc
-- repo: debian_unstable
-  subrepo: sid/main
-  srcname: gcli
-  binnames:
-    - gcli
-  visiblename: gcli
   version: 2.14.0
   origversion: 2.14.0-1
   status: newest
-  maintainers:
-    - sjr@debian.org
-  categories:
-    - misc
-- repo: deepin_25
-  subrepo: community
-  srcname: gcli
-  binnames:
-    - gcli
-  visiblename: gcli
-  version: 2.3.0
-  origversion: 2.3.0-1
-  status: outdated
   maintainers:
     - sjr@debian.org
   categories:
@@ -350,44 +375,6 @@
     - johannes.maier@mailbox.org
   licenses:
     - BSD-2-Clause
-- repo: parrot
-  subrepo: parrot/main
-  srcname: gcli
-  binnames:
-    - gcli
-  visiblename: gcli
-  version: 2.3.0
-  origversion: 2.3.0-1
-  status: outdated
-  maintainers:
-    - sjr@debian.org
-  categories:
-    - misc
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: gcli
-  binnames:
-    - gcli
-  visiblename: gcli
-  version: 2.3.0
-  origversion: 2.3.0-1
-  status: outdated
-  maintainers:
-    - sjr@debian.org
-  categories:
-    - misc
-- repo: pkgsrc_2026_2
-  srcname: devel/gcli
-  binname: gcli
-  visiblename: devel/gcli
-  version: 2.2.0
-  origversion: 2.2.0nb11
-  status: outdated
-  summary: Portable CLI tool for interacting with GitHub/Lab/Tea
-  maintainers:
-    - tm@netbsd.org
-  categories:
-    - devel
 - repo: pkgsrc_2026_3
   srcname: devel/gcli
   binname: gcli
