@@ -47,20 +47,20 @@ Total: **35,946** lines of code across **291** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-05 | 1 | 0 | 0 | 0 | 0 | 8 |
-| last60d | 2026-09-05 | 1 | 0 | 0 | 0 | 0 | 17 |
-| 90d | 2026-08-06 | 1 | 0 | 0 | 1 | 0 | 25 |
-| last180d | 2026-05-08 | 3 | 0 | 0 | 2 | 0 | 132 |
-| 360d | 2025-11-09 | 5 | 0 | 0 | 3 | 1 | 256 |
-| last720d | 2024-11-14 | 11 | 0 | 0 | 9 | 1 | 555 |
+| 30d | 2026-10-06 | 1 | 0 | 0 | 0 | 0 | 8 |
+| last60d | 2026-09-06 | 1 | 0 | 0 | 0 | 0 | 17 |
+| 90d | 2026-08-07 | 1 | 0 | 0 | 1 | 0 | 25 |
+| last180d | 2026-05-09 | 3 | 0 | 0 | 2 | 0 | 132 |
+| 360d | 2025-11-10 | 5 | 0 | 0 | 3 | 1 | 256 |
+| last720d | 2024-11-15 | 11 | 0 | 0 | 9 | 1 | 555 |
 
 ## Distribution status
 
-Reported by **42** distros on [repology.org](https://repology.org/project/gcli). **4** are ✅ on the latest upstream release, **36** are ⚠️ on an older version.
+Reported by **41** distros on [repology.org](https://repology.org/project/gcli). **4** are ✅ on the latest upstream release, **36** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
-| Debian unstable | `2.13.0` | 🪦 legacy |
+| Debian unstable | `2.14.0` | ✅ latest |
 | Debian 14 | `2.13.0` | ⚠️ outdated |
 | Debian 13 | `2.3.0` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `2.9.1` | ⚠️ outdated |
@@ -78,4 +78,4 @@ Install metadata for gcli lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261104.yml` · 2026-11-04T06:00:24Z._
+_Snapshot: `data/card/261105.yml` · 2026-11-05T06:26:11Z._
