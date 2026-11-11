@@ -47,16 +47,16 @@ Total: **36,005** lines of code across **291** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-11 | 1 | 0 | 0 | 0 | 0 | 7 |
-| last60d | 2026-09-11 | 1 | 0 | 0 | 0 | 0 | 21 |
-| 90d | 2026-08-12 | 1 | 0 | 0 | 1 | 0 | 24 |
-| last180d | 2026-05-14 | 3 | 0 | 0 | 2 | 0 | 136 |
-| 360d | 2025-11-15 | 5 | 0 | 0 | 3 | 1 | 245 |
-| last720d | 2024-11-20 | 11 | 0 | 0 | 8 | 1 | 538 |
+| 30d | 2026-10-12 | 1 | 0 | 0 | 0 | 0 | 7 |
+| last60d | 2026-09-12 | 1 | 0 | 0 | 0 | 0 | 21 |
+| 90d | 2026-08-13 | 1 | 0 | 0 | 1 | 0 | 24 |
+| last180d | 2026-05-15 | 3 | 0 | 0 | 2 | 0 | 136 |
+| 360d | 2025-11-16 | 5 | 0 | 0 | 3 | 1 | 245 |
+| last720d | 2024-11-21 | 11 | 0 | 0 | 8 | 1 | 538 |
 
 ## Distribution status
 
-Reported by **42** distros on [repology.org](https://repology.org/project/gcli). **10** are ✅ on the latest upstream release, **31** are ⚠️ on an older version.
+Reported by **42** distros on [repology.org](https://repology.org/project/gcli). **11** are ✅ on the latest upstream release, **30** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -65,7 +65,7 @@ Reported by **42** distros on [repology.org](https://repology.org/project/gcli).
 | Debian 13 | `2.3.0` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `2.9.1` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `2.2.0` | ⚠️ outdated |
-| Homebrew | `HEAD` | 🔄 rolling |
+| Homebrew | `2.14.0` | ✅ latest |
 | Nix unstable | `2.14.0` | ✅ latest |
 | Alpine edge | `2.9.1` | ⚠️ outdated |
 
@@ -78,4 +78,4 @@ Install metadata for gcli lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261110.yml` · 2026-11-10T07:02:43Z._
+_Snapshot: `data/card/261111.yml` · 2026-11-11T05:54:59Z._
