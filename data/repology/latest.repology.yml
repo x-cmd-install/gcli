@@ -1,73 +1,3 @@
-- repo: nix_stable_25_11
-  srcname: gcli
-  visiblename: gcli
-  version: 2.9.1
-  origversion: null
-  status: outdated
-  summary: Portable Git(Hub|Lab|ea) CLI tool
-  maintainers:
-    - johannes.maier@mailbox.org
-  licenses:
-    - BSD-2-Clause
-- repo: ubuntu_27_04
-  subrepo: tenacious/universe
-  srcname: gcli
-  binnames:
-    - gcli
-  visiblename: gcli
-  version: 2.14.0
-  origversion: 2.14.0-1
-  status: newest
-  maintainers:
-    - sjr@debian.org
-  categories:
-    - universe/misc
-- repo: nix_stable_24_05
-  srcname: gcli
-  visiblename: gcli
-  version: 2.2.0
-  origversion: null
-  status: outdated
-  summary: Portable Git(Hub|Lab|ea) CLI tool
-  maintainers:
-    - johannes.maier@mailbox.org
-  licenses:
-    - BSD-2-Clause
-- repo: yacp
-  srcname: gcli
-  binnames:
-    - gcli
-    - libgcli0
-    - libgcli-devel
-  visiblename: gcli
-  version: 2.3.0
-  origversion: null
-  status: outdated
-  summary: Portable Git(hub|lab|tea) CLI tool
-  categories:
-    - Utils
-- repo: nix_stable_24_11
-  srcname: gcli
-  visiblename: gcli
-  version: 2.2.0
-  origversion: null
-  status: outdated
-  summary: Portable Git(Hub|Lab|ea) CLI tool
-  maintainers:
-    - johannes.maier@mailbox.org
-  licenses:
-    - BSD-2-Clause
-- repo: nix_stable_25_05
-  srcname: gcli
-  visiblename: gcli
-  version: 2.7.0
-  origversion: null
-  status: outdated
-  summary: Portable Git(Hub|Lab|ea) CLI tool
-  maintainers:
-    - johannes.maier@mailbox.org
-  licenses:
-    - BSD-2-Clause
 - repo: alpine_edge
   subrepo: testing
   srcname: gcli
@@ -223,6 +153,19 @@
     - sjr@debian.org
   categories:
     - misc
+- repo: debian_unstable
+  subrepo: sid/main
+  srcname: gcli
+  binnames:
+    - gcli
+  visiblename: gcli
+  version: 2.14.0
+  origversion: 2.14.0-2
+  status: newest
+  maintainers:
+    - sjr@debian.org
+  categories:
+    - misc
 - repo: deepin_25
   subrepo: community
   srcname: gcli
@@ -243,7 +186,7 @@
     - gcli
   visiblename: gcli
   version: 2.14.0
-  origversion: 2.14.0-1
+  origversion: 2.14.0-2
   status: newest
   maintainers:
     - sjr@debian.org
@@ -302,6 +245,50 @@
     - BSD
   categories:
     - devel
+- repo: nix_stable_24_05
+  srcname: gcli
+  visiblename: gcli
+  version: 2.2.0
+  origversion: null
+  status: outdated
+  summary: Portable Git(Hub|Lab|ea) CLI tool
+  maintainers:
+    - johannes.maier@mailbox.org
+  licenses:
+    - BSD-2-Clause
+- repo: nix_stable_24_11
+  srcname: gcli
+  visiblename: gcli
+  version: 2.2.0
+  origversion: null
+  status: outdated
+  summary: Portable Git(Hub|Lab|ea) CLI tool
+  maintainers:
+    - johannes.maier@mailbox.org
+  licenses:
+    - BSD-2-Clause
+- repo: nix_stable_25_05
+  srcname: gcli
+  visiblename: gcli
+  version: 2.7.0
+  origversion: null
+  status: outdated
+  summary: Portable Git(Hub|Lab|ea) CLI tool
+  maintainers:
+    - johannes.maier@mailbox.org
+  licenses:
+    - BSD-2-Clause
+- repo: nix_stable_25_11
+  srcname: gcli
+  visiblename: gcli
+  version: 2.9.1
+  origversion: null
+  status: outdated
+  summary: Portable Git(Hub|Lab|ea) CLI tool
+  maintainers:
+    - johannes.maier@mailbox.org
+  licenses:
+    - BSD-2-Clause
 - repo: nix_stable_26_05
   srcname: gcli
   visiblename: gcli
@@ -518,3 +505,29 @@
     - sjr@debian.org
   categories:
     - universe/misc
+- repo: ubuntu_27_04
+  subrepo: tenacious/universe
+  srcname: gcli
+  binnames:
+    - gcli
+  visiblename: gcli
+  version: 2.14.0
+  origversion: 2.14.0-1
+  status: newest
+  maintainers:
+    - sjr@debian.org
+  categories:
+    - universe/misc
+- repo: yacp
+  srcname: gcli
+  binnames:
+    - gcli
+    - libgcli0
+    - libgcli-devel
+  visiblename: gcli
+  version: 2.3.0
+  origversion: null
+  status: outdated
+  summary: Portable Git(hub|lab|tea) CLI tool
+  categories:
+    - Utils
