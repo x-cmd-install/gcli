@@ -1,3 +1,55 @@
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: gcli
+  binnames:
+    - gcli
+  visiblename: gcli
+  version: 2.14.0
+  origversion: 2.14.0-2
+  status: newest
+  maintainers:
+    - sjr@debian.org
+  categories:
+    - misc
+- repo: parrot
+  subrepo: parrot/main
+  srcname: gcli
+  binnames:
+    - gcli
+  visiblename: gcli
+  version: 2.3.0
+  origversion: 2.3.0-1
+  status: outdated
+  maintainers:
+    - sjr@debian.org
+  categories:
+    - misc
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: gcli
+  binnames:
+    - gcli
+  visiblename: gcli
+  version: 2.3.0
+  origversion: 2.3.0-1
+  status: outdated
+  maintainers:
+    - sjr@debian.org
+  categories:
+    - misc
+- repo: deepin_25
+  subrepo: community
+  srcname: gcli
+  binnames:
+    - gcli
+  visiblename: gcli
+  version: 2.3.0
+  origversion: 2.3.0-1
+  status: outdated
+  maintainers:
+    - sjr@debian.org
+  categories:
+    - misc
 - repo: alpine_edge
   subrepo: testing
   srcname: gcli
@@ -147,45 +199,6 @@
     - gcli
   visiblename: gcli
   version: 2.14.0
-  origversion: 2.14.0-1
-  status: newest
-  maintainers:
-    - sjr@debian.org
-  categories:
-    - misc
-- repo: debian_unstable
-  subrepo: sid/main
-  srcname: gcli
-  binnames:
-    - gcli
-  visiblename: gcli
-  version: 2.14.0
-  origversion: 2.14.0-2
-  status: newest
-  maintainers:
-    - sjr@debian.org
-  categories:
-    - misc
-- repo: deepin_25
-  subrepo: community
-  srcname: gcli
-  binnames:
-    - gcli
-  visiblename: gcli
-  version: 2.3.0
-  origversion: 2.3.0-1
-  status: outdated
-  maintainers:
-    - sjr@debian.org
-  categories:
-    - misc
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: gcli
-  binnames:
-    - gcli
-  visiblename: gcli
-  version: 2.14.0
   origversion: 2.14.0-2
   status: newest
   maintainers:
@@ -311,32 +324,6 @@
     - johannes.maier@mailbox.org
   licenses:
     - BSD-2-Clause
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: gcli
-  binnames:
-    - gcli
-  visiblename: gcli
-  version: 2.3.0
-  origversion: 2.3.0-1
-  status: outdated
-  maintainers:
-    - sjr@debian.org
-  categories:
-    - misc
-- repo: parrot
-  subrepo: parrot/main
-  srcname: gcli
-  binnames:
-    - gcli
-  visiblename: gcli
-  version: 2.3.0
-  origversion: 2.3.0-1
-  status: outdated
-  maintainers:
-    - sjr@debian.org
-  categories:
-    - misc
 - repo: pkgsrc_2026_2
   srcname: devel/gcli
   binname: gcli
