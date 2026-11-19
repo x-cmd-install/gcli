@@ -1,29 +1,29 @@
-- repo: devuan_unstable
-  subrepo: unstable/main
+- repo: ubuntu_27_04
+  subrepo: tenacious/universe
   srcname: gcli
   binnames:
     - gcli
   visiblename: gcli
   version: 2.14.0
-  origversion: 2.14.0-2
+  origversion: 2.14.0-1
   status: newest
   maintainers:
     - sjr@debian.org
   categories:
-    - misc
-- repo: parrot
-  subrepo: parrot/main
+    - universe/misc
+- repo: yacp
   srcname: gcli
   binnames:
     - gcli
+    - libgcli0
+    - libgcli-devel
   visiblename: gcli
   version: 2.3.0
-  origversion: 2.3.0-1
+  origversion: null
   status: outdated
-  maintainers:
-    - sjr@debian.org
+  summary: Portable Git(hub|lab|tea) CLI tool
   categories:
-    - misc
+    - Utils
 - repo: parrot
   subrepo: parrot-updates/main
   srcname: gcli
@@ -37,8 +37,8 @@
     - sjr@debian.org
   categories:
     - misc
-- repo: deepin_25
-  subrepo: community
+- repo: parrot
+  subrepo: parrot/main
   srcname: gcli
   binnames:
     - gcli
@@ -186,7 +186,7 @@
     - gcli
   visiblename: gcli
   version: 2.14.0
-  origversion: 2.14.0-1
+  origversion: 2.14.0-2
   status: newest
   maintainers:
     - sjr@debian.org
@@ -194,6 +194,32 @@
     - misc
 - repo: debian_unstable
   subrepo: sid/main
+  srcname: gcli
+  binnames:
+    - gcli
+  visiblename: gcli
+  version: 2.14.0
+  origversion: 2.14.0-2
+  status: newest
+  maintainers:
+    - sjr@debian.org
+  categories:
+    - misc
+- repo: deepin_25
+  subrepo: community
+  srcname: gcli
+  binnames:
+    - gcli
+  visiblename: gcli
+  version: 2.3.0
+  origversion: 2.3.0-1
+  status: outdated
+  maintainers:
+    - sjr@debian.org
+  categories:
+    - misc
+- repo: devuan_unstable
+  subrepo: unstable/main
   srcname: gcli
   binnames:
     - gcli
@@ -492,29 +518,3 @@
     - sjr@debian.org
   categories:
     - universe/misc
-- repo: ubuntu_27_04
-  subrepo: tenacious/universe
-  srcname: gcli
-  binnames:
-    - gcli
-  visiblename: gcli
-  version: 2.14.0
-  origversion: 2.14.0-1
-  status: newest
-  maintainers:
-    - sjr@debian.org
-  categories:
-    - universe/misc
-- repo: yacp
-  srcname: gcli
-  binnames:
-    - gcli
-    - libgcli0
-    - libgcli-devel
-  visiblename: gcli
-  version: 2.3.0
-  origversion: null
-  status: outdated
-  summary: Portable Git(hub|lab|tea) CLI tool
-  categories:
-    - Utils
