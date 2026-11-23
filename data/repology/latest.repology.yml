@@ -1,29 +1,3 @@
-- repo: debian_13
-  subrepo: trixie/main
-  srcname: gcli
-  binnames:
-    - gcli
-  visiblename: gcli
-  version: 2.3.0
-  origversion: 2.3.0-1
-  status: outdated
-  maintainers:
-    - sjr@debian.org
-  categories:
-    - misc
-- repo: debian_14
-  subrepo: forky/main
-  srcname: gcli
-  binnames:
-    - gcli
-  visiblename: gcli
-  version: 2.14.0
-  origversion: 2.14.0-2
-  status: newest
-  maintainers:
-    - sjr@debian.org
-  categories:
-    - misc
 - repo: debian_unstable
   subrepo: sid/main
   srcname: gcli
@@ -33,32 +7,6 @@
   version: 2.14.0
   origversion: 2.14.0-2
   status: newest
-  maintainers:
-    - sjr@debian.org
-  categories:
-    - misc
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: gcli
-  binnames:
-    - gcli
-  visiblename: gcli
-  version: 2.3.0
-  origversion: 2.3.0-1
-  status: outdated
-  maintainers:
-    - sjr@debian.org
-  categories:
-    - devel
-- repo: raspbian_stable
-  subrepo: main
-  srcname: gcli
-  binnames:
-    - gcli
-  visiblename: gcli
-  version: 2.3.0
-  origversion: 2.3.0-1
-  status: outdated
   maintainers:
     - sjr@debian.org
   categories:
@@ -76,19 +24,6 @@
     - sjr@debian.org
   categories:
     - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: gcli
-  binnames:
-    - gcli
-  visiblename: gcli
-  version: 2.14.0
-  origversion: 2.14.0-2
-  status: newest
-  maintainers:
-    - sjr@debian.org
-  categories:
-    - misc
 - repo: devuan_unstable
   subrepo: unstable/main
   srcname: gcli
@@ -102,48 +37,45 @@
     - sjr@debian.org
   categories:
     - misc
-- repo: alpine_edge
-  subrepo: testing
-  srcname: gcli
+- repo: freebsd
+  srcname: devel/gcli
   binname: gcli
-  visiblename: gcli
-  version: 2.9.1
-  origversion: 2.9.1-r2
-  status: outdated
-  summary: Portable GitHub/GitLab/Gitea CLI tool
+  visiblename: devel/gcli
+  version: 2.14.0
+  origversion: null
+  status: newest
+  summary: CLI utility to interact with various Git forges
   maintainers:
-    - folliekazetani@protonmail.com
-  licenses:
-    - BSD-2-Clause
-- repo: alpine_edge
-  subrepo: testing
+    - fuz@freebsd.org
+  categories:
+    - devel
+- repo: homebrew
   srcname: gcli
-  binname: gcli-doc
-  visiblename: gcli-doc
-  version: 2.9.1
-  origversion: 2.9.1-r2
-  status: outdated
-  summary: Portable GitHub/GitLab/Gitea CLI tool (documentation)
-  maintainers:
-    - folliekazetani@protonmail.com
-  licenses:
-    - BSD-2-Clause
-- repo: alt_p11
+  visiblename: gcli
+  version: 2.14.0
+  origversion: null
+  status: newest
+  summary: Portable Git(hub|lab|tea)/Forgejo/Bugzilla CLI tool
+- repo: homebrew
+  srcname: gcli
+  visiblename: gcli
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Portable Git(hub|lab|tea)/Forgejo/Bugzilla CLI tool
+- repo: kali_rolling
+  subrepo: main
   srcname: gcli
   binnames:
     - gcli
-    - gcli-debuginfo
   visiblename: gcli
-  version: 2.9.0
-  origversion: 2.9.0-alt1
-  status: outdated
-  summary: Portable CLI tool for interacting with Git(Hub|Lab|Tea) from the command line
+  version: 2.14.0
+  origversion: 2.14.0-2
+  status: newest
   maintainers:
-    - writers@altlinux.org
-  licenses:
-    - BSD-2-Clause
+    - sjr@debian.org
   categories:
-    - Development/Other
+    - misc
 - repo: altsisyphus
   srcname: gcli
   binnames:
@@ -218,45 +150,74 @@
     - sjr@debian.org
   categories:
     - misc
-- repo: freebsd
-  srcname: devel/gcli
-  binname: gcli
-  visiblename: devel/gcli
-  version: 2.14.0
-  origversion: null
-  status: newest
-  summary: CLI utility to interact with various Git forges
+- repo: debian_13
+  subrepo: trixie/main
+  srcname: gcli
+  binnames:
+    - gcli
+  visiblename: gcli
+  version: 2.3.0
+  origversion: 2.3.0-1
+  status: outdated
   maintainers:
-    - fuz@freebsd.org
+    - sjr@debian.org
   categories:
-    - devel
-- repo: homebrew
-  srcname: gcli
-  visiblename: gcli
-  version: 2.14.0
-  origversion: null
-  status: newest
-  summary: Portable Git(hub|lab|tea)/Forgejo/Bugzilla CLI tool
-- repo: homebrew
-  srcname: gcli
-  visiblename: gcli
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: Portable Git(hub|lab|tea)/Forgejo/Bugzilla CLI tool
-- repo: kali_rolling
-  subrepo: main
+    - misc
+- repo: debian_14
+  subrepo: forky/main
   srcname: gcli
   binnames:
     - gcli
   visiblename: gcli
   version: 2.14.0
-  origversion: 2.14.0-1
+  origversion: 2.14.0-2
   status: newest
   maintainers:
     - sjr@debian.org
   categories:
     - misc
+- repo: alpine_edge
+  subrepo: testing
+  srcname: gcli
+  binname: gcli
+  visiblename: gcli
+  version: 2.9.1
+  origversion: 2.9.1-r2
+  status: outdated
+  summary: Portable GitHub/GitLab/Gitea CLI tool
+  maintainers:
+    - folliekazetani@protonmail.com
+  licenses:
+    - BSD-2-Clause
+- repo: alpine_edge
+  subrepo: testing
+  srcname: gcli
+  binname: gcli-doc
+  visiblename: gcli-doc
+  version: 2.9.1
+  origversion: 2.9.1-r2
+  status: outdated
+  summary: Portable GitHub/GitLab/Gitea CLI tool (documentation)
+  maintainers:
+    - folliekazetani@protonmail.com
+  licenses:
+    - BSD-2-Clause
+- repo: alt_p11
+  srcname: gcli
+  binnames:
+    - gcli
+    - gcli-debuginfo
+  visiblename: gcli
+  version: 2.9.0
+  origversion: 2.9.0-alt1
+  status: outdated
+  summary: Portable CLI tool for interacting with Git(Hub|Lab|Tea) from the command line
+  maintainers:
+    - writers@altlinux.org
+  licenses:
+    - BSD-2-Clause
+  categories:
+    - Development/Other
 - repo: macports
   srcname: devel/gcli
   binname: gcli
@@ -338,7 +299,7 @@
   licenses:
     - BSD-2-Clause
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: gcli
   binnames:
     - gcli
@@ -351,7 +312,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: gcli
   binnames:
     - gcli
@@ -399,6 +360,45 @@
     - tm@netbsd.org
   categories:
     - devel
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: gcli
+  binnames:
+    - gcli
+  visiblename: gcli
+  version: 2.3.0
+  origversion: 2.3.0-1
+  status: outdated
+  maintainers:
+    - sjr@debian.org
+  categories:
+    - devel
+- repo: raspbian_stable
+  subrepo: main
+  srcname: gcli
+  binnames:
+    - gcli
+  visiblename: gcli
+  version: 2.3.0
+  origversion: 2.3.0-1
+  status: outdated
+  maintainers:
+    - sjr@debian.org
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: gcli
+  binnames:
+    - gcli
+  visiblename: gcli
+  version: 2.14.0
+  origversion: 2.14.0-2
+  status: newest
+  maintainers:
+    - sjr@debian.org
+  categories:
+    - misc
 - repo: rosa_13
   subrepo: contrib/release
   srcname: gcli
